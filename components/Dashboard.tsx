@@ -1,11 +1,11 @@
 import React from 'react';
 import { AlertCircle, Utensils, Calendar, Wifi, Bell } from 'lucide-react';
-import { Complaint, Notice } from '../types';
+import { Complaint, Notice, Page } from '../types';
 
 interface DashboardProps {
   complaints: Complaint[];
   notices: Notice[];
-  setActivePage: (page: any) => void;
+  setActivePage: (page: Page) => void;
 }
 
 const Dashboard: React.FC<DashboardProps> = ({ complaints, notices, setActivePage }) => {

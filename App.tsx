@@ -46,7 +46,7 @@ const App: React.FC = () => {
       <div className="flex-1 flex flex-col overflow-hidden">
         {/* Mobile Header */}
         <div className="md:hidden bg-indigo-900 text-white p-4 flex items-center justify-between">
-            <span className="font-bold text-lg">HostelMate</span>
+            <span className="font-bold text-lg">Smart Hostel Manager</span>
             <button onClick={() => setIsSidebarOpen(true)}>
                 <Menu size={24} />
             </button>

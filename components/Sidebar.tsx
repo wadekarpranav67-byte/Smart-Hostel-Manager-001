@@ -34,10 +34,10 @@ const Sidebar: React.FC<SidebarProps> = ({ activePage, setActivePage, isOpen, se
         
         <div className="flex items-center justify-between p-6 border-b border-indigo-800">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-indigo-500 rounded-lg flex items-center justify-center font-bold text-xl">
-              H
+            <div className="w-8 h-8 bg-indigo-500 rounded-lg flex items-center justify-center font-bold text-lg">
+              S
             </div>
-            <span className="text-xl font-bold tracking-wide">HostelMate</span>
+            <span className="text-lg font-bold tracking-wide">Smart Hostel</span>
           </div>
           <button className="md:hidden" onClick={() => setIsOpen(false)}>
             <X size={24} />
